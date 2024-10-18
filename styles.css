@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-bottom: 1px solid #fff;
+}
+
+.local-time {
+    font-size: 16px;
+}
+
+#time {
+    font-weight: bold;
+}
+
+.contact-btn {
+    background: none;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.intro {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.availability {
+    color: lime;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.location {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+.skill-box {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.skill-box h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    border-top: 1px solid #fff;
+    font-size: 14px;
+}
